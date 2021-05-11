@@ -1,0 +1,49 @@
+
+/* zusätzliches Aufzählungszeichen  im Startseiten template 
+---------------------------------------------------------------------- */
+.site-content li {
+    list-style-image: url('/wp-content/uploads/2021/05/logo_radi_small.png');
+    margin-right: 6px;
+    bottom: 2px;
+    position: relative;
+}
+
+/* setze die Farbe von Überschriften im Content Berecich auf gruen ( commons  farbe)  
+---------------------------------------------------------------------- */
+.site-content h1,h2,h3,h4,h5 {
+    color: #84AE53; 
+    font-family: Helvetica, Arial, sans-serif; 
+}
+
+
+/* setze die Farbe der Headlines in der side bar auf orange / halbier den Abstand nach unten  
+---------------------------------------------------------------------- */
+.widget-area .widget h3 {
+       color: #84AE53;
+       margin-bottom: 10px;
+       margin-bottom: 0.7rem
+}
+
+
+
+/* setze die Farbe von Links im Content Berecich auf gruen  
+---------------------------------------------------------------------- */
+.entry-header .entry-title a {
+        color: #84AE53
+        text-decoration: underline; 
+}
+
+
+
+/* Kind Seiten im SeitenMenu unterdrücken  
+---------------------------------------------------------------------- */
+.sub-menu {
+    display: none;
+}
+.current_page_item .sub-menu, .current_page_parent .sub-menu {
+    display: block;
+}
+
+
+
+/* Ende Anpassung */
