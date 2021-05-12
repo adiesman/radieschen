@@ -1,0 +1,28 @@
+Hallo {{user:first_name}},<br>
+<br>
+vielen Dank für deine Buchung von {{item:post_title}} {{booking:formattedBookingDate}}.<br>
+<br>
+Abholung: <strong>{{booking:pickupDatetime}}</strong><br>
+Rückgabe: <strong>{{booking:returnDatetime}}</strong>
+Notiz: {{booking:returnComment}} 
+
+
+{{location:formattedPickupInstructions}}
+{{booking:formattedBookingCode}}
+<br>
+<strong>Standort</strong><br>
+{{location:formattedAddress}}
+{{location:formattedContactInfoOneLine}}
+<br>
+<strong>Klicke hier, um deine Buchung zu sehen und zu stornieren: {{booking:bookingLink}}</strong><br>
+<br>
+<strong>Hinweis:</strong> Du musst eingeloggt sein, um deine Buchung sehen zu können.<br>
+Wenn dich der Link zur Hauptseite führt,
+logge dich zunächst ein und klicke dann erneut auf den Link.<br>
+<br>
+<strong>Deine Daten:</strong><br>
+Login: {{user:user_login}}<br>
+Name: {{user:first_name}} {{user:last_name}}<br>
+<br>
+Vielen Dank, das RADieschen Team.
+                        
