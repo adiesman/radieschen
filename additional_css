@@ -110,13 +110,20 @@ input[type="reset"]:active {
 }
 
 
-
-.cb-button[disabled=disabled], .cb-button-container a[disabled=disabled], .cb-wrapper .cb-action input[disabled=disabled], .cb-wrapper #booking-form input[disabled=disabled], .cb-map-filters.cb-wrapper .cb-map-button-wrapper button[disabled=disabled] {
-    color: #565555;
+.cb-button, .cb-button-container a, .cb-wrapper .cb-action input, .cb-wrapper #booking-form input, .cb-map-filters.cb-wrapper .cb-map-button-wrapper button{
+	    color: #565555;
 	  /* commons green */
 	  background-color: #74ce3c;
     background-image: none;
 }
+
+.cb-button[disabled=disabled], .cb-button-container a[disabled=disabled], .cb-wrapper .cb-action input[disabled=disabled], .cb-wrapper #booking-form input[disabled=disabled], .cb-map-filters.cb-wrapper .cb-map-button-wrapper button[disabled=disabled]{
+	    color: #565555;
+	  /* commons green */
+	  background-color: #74ce3c;
+    background-image: none;
+}
+
 
 
 /* Ende Anpassung */
