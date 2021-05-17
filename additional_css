@@ -29,7 +29,7 @@
 /* setze die Farbe von Links im Content Berecich auf gruen  
 ---------------------------------------------------------------------- */
 .entry-header .entry-title a {
-        color: #84AE53
+        color: #84AE53;
         text-decoration: underline; 
 }
 
