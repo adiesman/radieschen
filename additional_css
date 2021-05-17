@@ -30,9 +30,12 @@
 ---------------------------------------------------------------------- */
 .entry-header .entry-title a {
         color: #84AE53;
-        text-decoration: underline; 
+        /* text-decoration: underline; */
 }
-
+.entry-header .entry-title a:hover {
+        color: #506CA9;
+     /*   text-decoration: underline; */
+}
 
 
 /* Kind Seiten im SeitenMenu unterdrücken  
