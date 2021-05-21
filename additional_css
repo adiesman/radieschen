@@ -138,5 +138,25 @@ img.header-image{
     box-shadow: 0 1px 4px rgb(0 0 0 / 0%);
 }
 
+/* unvisited link */
+a:link {
+  color: #84AE53;
+}
+
+/* visited link */
+a:visited {
+  color: #84AE53;
+}
+
+/* mouse over link */
+a:hover {
+  color: #21759b;
+}
+
+/* selected link */
+a:active {
+  color: #21759b;
+}
+
 
 /* Ende Anpassung */
