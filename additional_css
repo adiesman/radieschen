@@ -127,6 +127,16 @@ input[type="reset"]:active {
     background-image: none;
 }
 
+/* don't show "Hervorgehobener Beitrag */
+article.sticky .featured-post{
+	display: none;
+}
+
+/* set  logo img border color to  0%  invisible */
+img.header-image{
+    border-radius: 3px;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 0%);
+}
 
 
 /* Ende Anpassung */
